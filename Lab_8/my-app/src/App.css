@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  color: white;
+}
+
+.navTitle {
+  font-family: 'Nunito';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-links {
+  font-family: 'Nunito';
+  font-size: 25px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.button {
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  width:50%;
+  height: 40px;
+  margin-left:25%;
+  margin-right:25%;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #2a2c2a;
+  color: white;
+}
+
+.buttonSecondPage {
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  width:10%;
+  height: 45px;
+  align-items: center;
+  transition-duration: 0.4s;
+}
+
+.buttonSecondPage:hover {
+  background-color: #2a2c2a;
+  color: white;
+}
+
+
+.inputSearch {
+  margin-left: 20px;
+}
+
+.buttonSort {
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  width:45%;
+  height: 45px;
+  align-items: center;
+  transition-duration: 0.4s;
+}
+
+.buttonSort:hover {
+  background-color: #2a2c2a;
+  color: white;
+}
+
+
+
+
+#------------------------
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
